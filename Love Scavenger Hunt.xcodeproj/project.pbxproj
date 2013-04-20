@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC05DAD31700CC1E005DA86C /* LSHscavengerHunt.m in Sources */ = {isa = PBXBuildFile; fileRef = EC05DAD21700CC1E005DA86C /* LSHscavengerHunt.m */; };
+		EC0C271C16FAA28D00964806 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC0C271B16FAA28D00964806 /* CoreLocation.framework */; };
+		EC446340170F50AF00FD33BB /* LSHTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC44633F170F50AF00FD33BB /* LSHTableViewController.m */; };
+		ECA357DE16BF815C00B8DF23 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECA357DD16BF815C00B8DF23 /* UIKit.framework */; };
+		ECA357E016BF815C00B8DF23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECA357DF16BF815C00B8DF23 /* Foundation.framework */; };
+		ECA357E216BF815C00B8DF23 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECA357E116BF815C00B8DF23 /* CoreGraphics.framework */; };
+		ECA357E816BF815D00B8DF23 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ECA357E616BF815D00B8DF23 /* InfoPlist.strings */; };
+		ECA357EA16BF815D00B8DF23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA357E916BF815D00B8DF23 /* main.m */; };
+		ECA357EE16BF815D00B8DF23 /* LSHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA357ED16BF815D00B8DF23 /* LSHAppDelegate.m */; };
+		ECA357F016BF815D00B8DF23 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = ECA357EF16BF815D00B8DF23 /* Default.png */; };
+		ECA357F216BF815D00B8DF23 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECA357F116BF815D00B8DF23 /* Default@2x.png */; };
+		ECA357F416BF815D00B8DF23 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECA357F316BF815D00B8DF23 /* Default-568h@2x.png */; };
+		ECA357F716BF815D00B8DF23 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECA357F516BF815D00B8DF23 /* MainStoryboard.storyboard */; };
+		ECA357FA16BF815D00B8DF23 /* LSHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA357F916BF815D00B8DF23 /* LSHViewController.m */; };
+		ECA3580116BF842500B8DF23 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECA3580016BF842500B8DF23 /* MapKit.framework */; };
+		ECA3580416BF944C00B8DF23 /* LSHmapPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA3580316BF944C00B8DF23 /* LSHmapPoint.m */; };
+		ECA6F9A1170CF4AA00B8F179 /* LSHCompletedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA6F9A0170CF4AA00B8F179 /* LSHCompletedViewController.m */; };
+		ECD04D85170A347000579314 /* LSHWelcomeScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD04D84170A347000579314 /* LSHWelcomeScreen.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EC05DAD11700CC1E005DA86C /* LSHscavengerHunt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LSHscavengerHunt.h; path = "Love Scavenger Hunt/LSHscavengerHunt.h"; sourceTree = "<group>"; };
+		EC05DAD21700CC1E005DA86C /* LSHscavengerHunt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LSHscavengerHunt.m; path = "Love Scavenger Hunt/LSHscavengerHunt.m"; sourceTree = "<group>"; };
+		EC0C271B16FAA28D00964806 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		EC44633E170F50AF00FD33BB /* LSHTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LSHTableViewController.h; path = ../LSHTableViewController.h; sourceTree = "<group>"; };
+		EC44633F170F50AF00FD33BB /* LSHTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LSHTableViewController.m; path = ../LSHTableViewController.m; sourceTree = "<group>"; };
+		ECA357DA16BF815C00B8DF23 /* Love Scavenger Hunt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Love Scavenger Hunt.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECA357DD16BF815C00B8DF23 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ECA357DF16BF815C00B8DF23 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ECA357E116BF815C00B8DF23 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ECA357E516BF815C00B8DF23 /* Love Scavenger Hunt-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Love Scavenger Hunt-Info.plist"; sourceTree = "<group>"; };
+		ECA357E716BF815D00B8DF23 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ECA357E916BF815D00B8DF23 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECA357EB16BF815D00B8DF23 /* Love Scavenger Hunt-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Love Scavenger Hunt-Prefix.pch"; sourceTree = "<group>"; };
+		ECA357EC16BF815D00B8DF23 /* LSHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSHAppDelegate.h; sourceTree = "<group>"; };
+		ECA357ED16BF815D00B8DF23 /* LSHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSHAppDelegate.m; sourceTree = "<group>"; };
+		ECA357EF16BF815D00B8DF23 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		ECA357F116BF815D00B8DF23 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		ECA357F316BF815D00B8DF23 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		ECA357F616BF815D00B8DF23 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		ECA357F816BF815D00B8DF23 /* LSHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSHViewController.h; sourceTree = "<group>"; };
+		ECA357F916BF815D00B8DF23 /* LSHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSHViewController.m; sourceTree = "<group>"; };
+		ECA3580016BF842500B8DF23 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		ECA3580216BF944C00B8DF23 /* LSHmapPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LSHmapPoint.h; path = "Love Scavenger Hunt/LSHmapPoint.h"; sourceTree = "<group>"; };
+		ECA3580316BF944C00B8DF23 /* LSHmapPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LSHmapPoint.m; path = "Love Scavenger Hunt/LSHmapPoint.m"; sourceTree = "<group>"; };
+		ECA6F99F170CF4AA00B8F179 /* LSHCompletedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LSHCompletedViewController.h; path = ../LSHCompletedViewController.h; sourceTree = "<group>"; };
+		ECA6F9A0170CF4AA00B8F179 /* LSHCompletedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LSHCompletedViewController.m; path = ../LSHCompletedViewController.m; sourceTree = "<group>"; };
+		ECD04D83170A347000579314 /* LSHWelcomeScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LSHWelcomeScreen.h; path = ../LSHWelcomeScreen.h; sourceTree = "<group>"; };
+		ECD04D84170A347000579314 /* LSHWelcomeScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LSHWelcomeScreen.m; path = ../LSHWelcomeScreen.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECA357D716BF815C00B8DF23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC0C271C16FAA28D00964806 /* CoreLocation.framework in Frameworks */,
+				ECA3580116BF842500B8DF23 /* MapKit.framework in Frameworks */,
+				ECA357DE16BF815C00B8DF23 /* UIKit.framework in Frameworks */,
+				ECA357E016BF815C00B8DF23 /* Foundation.framework in Frameworks */,
+				ECA357E216BF815C00B8DF23 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC05DAD01700CB5D005DA86C /* Custom Classes */ = {
+			isa = PBXGroup;
+			children = (
+				ECA3580216BF944C00B8DF23 /* LSHmapPoint.h */,
+				ECA3580316BF944C00B8DF23 /* LSHmapPoint.m */,
+				EC05DAD11700CC1E005DA86C /* LSHscavengerHunt.h */,
+				EC05DAD21700CC1E005DA86C /* LSHscavengerHunt.m */,
+			);
+			name = "Custom Classes";
+			sourceTree = "<group>";
+		};
+		ECA357D116BF815C00B8DF23 = {
+			isa = PBXGroup;
+			children = (
+				ECA357E316BF815C00B8DF23 /* Love Scavenger Hunt */,
+				EC05DAD01700CB5D005DA86C /* Custom Classes */,
+				ECA357DC16BF815C00B8DF23 /* Frameworks */,
+				ECA357DB16BF815C00B8DF23 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECA357DB16BF815C00B8DF23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECA357DA16BF815C00B8DF23 /* Love Scavenger Hunt.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECA357DC16BF815C00B8DF23 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC0C271B16FAA28D00964806 /* CoreLocation.framework */,
+				ECA3580016BF842500B8DF23 /* MapKit.framework */,
+				ECA357DD16BF815C00B8DF23 /* UIKit.framework */,
+				ECA357DF16BF815C00B8DF23 /* Foundation.framework */,
+				ECA357E116BF815C00B8DF23 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECA357E316BF815C00B8DF23 /* Love Scavenger Hunt */ = {
+			isa = PBXGroup;
+			children = (
+				ECA357EC16BF815D00B8DF23 /* LSHAppDelegate.h */,
+				ECA357ED16BF815D00B8DF23 /* LSHAppDelegate.m */,
+				ECA357F816BF815D00B8DF23 /* LSHViewController.h */,
+				ECA357F916BF815D00B8DF23 /* LSHViewController.m */,
+				ECD04D83170A347000579314 /* LSHWelcomeScreen.h */,
+				ECD04D84170A347000579314 /* LSHWelcomeScreen.m */,
+				ECA6F99F170CF4AA00B8F179 /* LSHCompletedViewController.h */,
+				ECA6F9A0170CF4AA00B8F179 /* LSHCompletedViewController.m */,
+				EC44633E170F50AF00FD33BB /* LSHTableViewController.h */,
+				EC44633F170F50AF00FD33BB /* LSHTableViewController.m */,
+				ECA357F516BF815D00B8DF23 /* MainStoryboard.storyboard */,
+				ECA357E416BF815C00B8DF23 /* Supporting Files */,
+			);
+			path = "Love Scavenger Hunt";
+			sourceTree = "<group>";
+		};
+		ECA357E416BF815C00B8DF23 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECA357E516BF815C00B8DF23 /* Love Scavenger Hunt-Info.plist */,
+				ECA357E616BF815D00B8DF23 /* InfoPlist.strings */,
+				ECA357E916BF815D00B8DF23 /* main.m */,
+				ECA357EB16BF815D00B8DF23 /* Love Scavenger Hunt-Prefix.pch */,
+				ECA357EF16BF815D00B8DF23 /* Default.png */,
+				ECA357F116BF815D00B8DF23 /* Default@2x.png */,
+				ECA357F316BF815D00B8DF23 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECA357D916BF815C00B8DF23 /* Love Scavenger Hunt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECA357FD16BF815D00B8DF23 /* Build configuration list for PBXNativeTarget "Love Scavenger Hunt" */;
+			buildPhases = (
+				ECA357D616BF815C00B8DF23 /* Sources */,
+				ECA357D716BF815C00B8DF23 /* Frameworks */,
+				ECA357D816BF815C00B8DF23 /* Resources */,
+				50524F424C454D533F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Love Scavenger Hunt";
+			productName = "Love Scavenger Hunt";
+			productReference = ECA357DA16BF815C00B8DF23 /* Love Scavenger Hunt.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECA357D216BF815C00B8DF23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LSH;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Trent Callan";
+			};
+			buildConfigurationList = ECA357D516BF815C00B8DF23 /* Build configuration list for PBXProject "Love Scavenger Hunt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ECA357D116BF815C00B8DF23;
+			productRefGroup = ECA357DB16BF815C00B8DF23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECA357D916BF815C00B8DF23 /* Love Scavenger Hunt */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECA357D816BF815C00B8DF23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA357E816BF815D00B8DF23 /* InfoPlist.strings in Resources */,
+				ECA357F016BF815D00B8DF23 /* Default.png in Resources */,
+				ECA357F216BF815D00B8DF23 /* Default@2x.png in Resources */,
+				ECA357F416BF815D00B8DF23 /* Default-568h@2x.png in Resources */,
+				ECA357F716BF815D00B8DF23 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		50524F424C454D533F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export CODESIGN_ALLOCATE=/Library/JailCoder/codesign_allocate\nif [ \"${PLATFORM_NAME}\" == \"iphoneos\" ]; then\n/Library/JailCoder/Entitlements/Entitlements.py \"my.company.${PROJECT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\";\ncodesign -f -s \"iPhone Developer\" --entitlements \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECA357D616BF815C00B8DF23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA357EA16BF815D00B8DF23 /* main.m in Sources */,
+				ECA357EE16BF815D00B8DF23 /* LSHAppDelegate.m in Sources */,
+				ECA357FA16BF815D00B8DF23 /* LSHViewController.m in Sources */,
+				ECA3580416BF944C00B8DF23 /* LSHmapPoint.m in Sources */,
+				EC05DAD31700CC1E005DA86C /* LSHscavengerHunt.m in Sources */,
+				ECD04D85170A347000579314 /* LSHWelcomeScreen.m in Sources */,
+				ECA6F9A1170CF4AA00B8F179 /* LSHCompletedViewController.m in Sources */,
+				EC446340170F50AF00FD33BB /* LSHTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ECA357E616BF815D00B8DF23 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECA357E716BF815D00B8DF23 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ECA357F516BF815D00B8DF23 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECA357F616BF815D00B8DF23 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECA357FB16BF815D00B8DF23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ECA357FC16BF815D00B8DF23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECA357FE16BF815D00B8DF23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Love Scavenger Hunt/Love Scavenger Hunt-Prefix.pch";
+				INFOPLIST_FILE = "Love Scavenger Hunt/Love Scavenger Hunt-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ECA357FF16BF815D00B8DF23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Love Scavenger Hunt/Love Scavenger Hunt-Prefix.pch";
+				INFOPLIST_FILE = "Love Scavenger Hunt/Love Scavenger Hunt-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECA357D516BF815C00B8DF23 /* Build configuration list for PBXProject "Love Scavenger Hunt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECA357FB16BF815D00B8DF23 /* Debug */,
+				ECA357FC16BF815D00B8DF23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECA357FD16BF815D00B8DF23 /* Build configuration list for PBXNativeTarget "Love Scavenger Hunt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECA357FE16BF815D00B8DF23 /* Debug */,
+				ECA357FF16BF815D00B8DF23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECA357D216BF815C00B8DF23 /* Project object */;
+}
