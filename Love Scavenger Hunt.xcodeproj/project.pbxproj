@@ -25,7 +25,6 @@
 		ECA3580416BF944C00B8DF23 /* LSHmapPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA3580316BF944C00B8DF23 /* LSHmapPoint.m */; };
 		ECA6F9A1170CF4AA00B8F179 /* LSHCompletedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA6F9A0170CF4AA00B8F179 /* LSHCompletedViewController.m */; };
 		ECD04D85170A347000579314 /* LSHWelcomeScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD04D84170A347000579314 /* LSHWelcomeScreen.m */; };
-		ECFFE28F17223C6C008B9934 /* gdsgd.m in Sources */ = {isa = PBXBuildFile; fileRef = ECFFE28E17223C6C008B9934 /* gdsgd.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,8 +56,6 @@
 		ECA6F9A0170CF4AA00B8F179 /* LSHCompletedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LSHCompletedViewController.m; path = ../LSHCompletedViewController.m; sourceTree = "<group>"; };
 		ECD04D83170A347000579314 /* LSHWelcomeScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LSHWelcomeScreen.h; path = ../LSHWelcomeScreen.h; sourceTree = "<group>"; };
 		ECD04D84170A347000579314 /* LSHWelcomeScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LSHWelcomeScreen.m; path = ../LSHWelcomeScreen.m; sourceTree = "<group>"; };
-		ECFFE28D17223C6C008B9934 /* gdsgd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gdsgd.h; sourceTree = "<group>"; };
-		ECFFE28E17223C6C008B9934 /* gdsgd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gdsgd.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,8 +88,6 @@
 		ECA357D116BF815C00B8DF23 = {
 			isa = PBXGroup;
 			children = (
-				ECFFE28D17223C6C008B9934 /* gdsgd.h */,
-				ECFFE28E17223C6C008B9934 /* gdsgd.m */,
 				ECA357E316BF815C00B8DF23 /* Love Scavenger Hunt */,
 				EC05DAD01700CB5D005DA86C /* Custom Classes */,
 				ECA357DC16BF815C00B8DF23 /* Frameworks */,
@@ -245,7 +240,6 @@
 				ECD04D85170A347000579314 /* LSHWelcomeScreen.m in Sources */,
 				ECA6F9A1170CF4AA00B8F179 /* LSHCompletedViewController.m in Sources */,
 				EC446340170F50AF00FD33BB /* LSHTableViewController.m in Sources */,
-				ECFFE28F17223C6C008B9934 /* gdsgd.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
